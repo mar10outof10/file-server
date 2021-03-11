@@ -4,7 +4,7 @@ const fs = require('fs');
 const server = net.createServer();
 
 server.listen('3000', () => {
-  console.log('Server listening at port 3000!')
+  console.log('Server listening at port 3000!');
 });
 
 server.on('connection', (client) => {
